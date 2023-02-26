@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/home/pelatge/Publik/desktop-project/meson-wx-cpp/build",
+    "command": "c++ -Iwxstc.p -I. -I.. -Iinclude -I../include -I/usr/local/lib/wx/include/gtk3-unicode-3.3 -I/usr/local/include/wx-3.3 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -DWXUSINGDLL -D__WXGTK3__ -D__WXGTK__ -pthread -MD -MQ wxstc.p/src_main.cc.o -MF wxstc.p/src_main.cc.o.d -o wxstc.p/src_main.cc.o -c ../src/main.cc",
+    "file": "../src/main.cc",
+    "output": "wxstc.p/src_main.cc.o"
+  }
+]

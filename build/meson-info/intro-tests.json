@@ -1,0 +1,1 @@
+[{"cmd": ["/home/pelatge/Publik/desktop-project/meson-wx-cpp/build/wxstc"], "env": {}, "name": "wxstctest", "workdir": null, "timeout": 30, "suite": ["wxwidgets_test"], "is_parallel": true, "priority": 0, "protocol": "exitcode", "depends": ["wxstc@exe"]}]
