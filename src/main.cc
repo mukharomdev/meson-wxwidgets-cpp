@@ -1,4 +1,4 @@
-#include "Application.h"
+#include "main.h"
 #include <wx/wx.h>
 
 int main()
