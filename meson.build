@@ -24,7 +24,8 @@ if wxd.found()
   stc_exe = executable('wxstc', 
   	        main_sources,
   	        include_directories:inc, 
-  	        dependencies : wx_stc)
+  	        dependencies : wx_stc,
+            link_with:mainWindowStatic)
   test('wxstctest', stc_exe)
 
   # Check we can apply a version constraint

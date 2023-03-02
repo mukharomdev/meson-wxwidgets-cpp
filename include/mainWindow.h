@@ -1,10 +1,10 @@
 /************************************************************************************//**
-* \file         main.h
-* \brief        Application header file.
+* \file         mainWindow.h
+* \brief        Application's main window header file.
 *
 ****************************************************************************************/
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
 
 /****************************************************************************************
 * Include files
@@ -14,13 +14,13 @@
 /****************************************************************************************
 * Class definitions
 ****************************************************************************************/
-/** \brief Application class. */
-class MyApp : public wxApp
+/** \brief Application's main window class. */
+class MainWindow : public wxFrame
 {
-  public:
-    virtual bool OnInit();
+public:
+  MainWindow(const wxString& title, int width, int height);
 };
 
-#endif /* MAIN_H */
-/*********************************** end of main.h *************************************/
+#endif /* MAINWINDOW_H */
+/*********************************** end of mainwindow.h *******************************/
 
