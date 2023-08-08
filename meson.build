@@ -10,7 +10,7 @@ subdir('src')
 subdir('include')
 subdir('resources')
 # dependencies
-wxd = dependency('wxwidgets', version : '>=3.3.0', required : false)
+wxd = dependency('wxwidgets', version : '>=3.2.0', required : false)
 
 ## target ##
 
@@ -20,7 +20,7 @@ if wxd.found()
   #test('wxtest', wp)
 
   # WxWidgets framework is available, we can use required here
-  wx_stc  = dependency('wxwidgets', version : '>=3.3.0', modules : ['std', 'stc'])
+  wx_stc  = dependency('wxwidgets', version : '>=3.2.0', modules : ['std', 'stc'])
   stc_exe = executable('wxstc', 
   	        main_sources,
   	        include_directories:inc, 
